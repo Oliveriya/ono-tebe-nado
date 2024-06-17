@@ -1,0 +1,127 @@
+body {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+    width: 1100px;
+    height: 3101px;
+    position: relative;
+
+}
+
+.header__menu-item {
+    list-style-type: none;
+}
+
+.marker {
+    list-style-type: circle;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.header {
+    padding-top: 92px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: 180px;
+}
+
+.contacts {
+    width: 221px;
+    height: 97px;
+    word-break: break-all;
+    line-height: 23.4px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    text-underline-position: under;
+    line-height: 23.4px;
+}
+
+.cover {
+    background-color: black;
+    width: 1100px;
+    height: 757px;
+    position: relative;
+}
+
+.lotus-background {
+    opacity: 0.5;
+}
+
+.cover__title {
+    position: absolute;
+    top: 165px;
+    right: 24px;
+    left: 24px;
+    font-family: Raleway;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-right {
+    display: flex;
+    justify-content: end;
+}
+
+.cover__subtext {
+    position: absolute;
+    color: white;
+    width: 633px;
+    height: 28px;
+    top: 667px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.button {
+    position: absolute;
+    color: white;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.83px;
+    text-align: center;
+    width: 257px;
+    height: 52px;
+    top: 655px;
+    left: 819px;
+    border: 1px solid white;
+}
+
+.button .button-text {
+
+}
